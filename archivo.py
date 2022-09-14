@@ -4,12 +4,12 @@ from utils import url_to_dataframe, writter
 
 import pandas as pd
 from datetime import datetime
-from wikiframe.cow_say import Say
+from wikiframe.cow_say import Say # Librería desarrollado por @MasamioNakada 
 from time import sleep
 
-from sqlalchemy.orm import Session
+
 import crud
-from config import SessionLocal, engine
+from config import SessionLocal
 
 s = Say()
 
